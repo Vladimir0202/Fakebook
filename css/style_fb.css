@@ -1,0 +1,127 @@
+
+body{
+    width:100%;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+.header{
+    background: #3b5998;
+    max-width:100%;
+    min-width:950px;
+    height:90px;
+    *\position:relative;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    *\padding:15px 220px;
+}
+
+.logo{
+   Width:300px;
+}
+
+
+.field {
+    font-size: 13px;
+    color:white;
+    padding:5px;
+    margin-left: 0px;
+    width:200px;
+}
+
+a {
+    font-size: 13px;
+    color:#8FB4CC;
+}
+.button1 {
+    background:#4267B2;
+    font-size: 13px;
+    border-radius:2px;
+    color:white;
+    padding:4px 8px;
+    margin: 19px 8px;
+    border:1px solid black;
+}
+
+.button1:hover{
+    background:#3b5998;
+    font-size: 13px;
+    border-radius:2px;
+    color:white;
+    padding:4px 8px;
+    margin: 19px 8px;
+    border:1px solid black;
+}
+
+h1 {
+    color: #0E385F;
+    font-size: 20px;
+    padding: 5px 30px 0px 0px;
+
+}
+
+.main_layer {
+    max-width:100%;
+    min-width:950px;
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: #f0f0f0;
+    height: 500px;
+}
+
+.mape{
+    flex-basis:50%;
+    flex-grow:1;
+    flex-shrink:4;
+    font-size: 20px;
+    padding:10px 30px 0px 200px;
+    color:black;
+}
+
+.register-form{
+    flex-basis:50%;
+    flex-grow:3;
+    flex-shrink:3;
+    font-size: 25px;
+    padding:0px 30px 0px 0px; 
+    color:black;
+}
+
+a.green{
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color: #fff;
+    display:block;
+    width:175px;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin: 20px auto;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;        
+}
+a.green {
+    background-color: #62A34F;
+    border: 1px solid #62A34F;
+}
+        
+a.green:hover {
+    background-color: rgb(110, 180, 89);
+}
+.input-field {
+    width:200px; 
+    height:30px; 
+    border-radius: 5px; 
+    font-size: 20px;
+}
